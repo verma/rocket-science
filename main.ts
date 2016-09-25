@@ -13,7 +13,7 @@
 
 import * as $ from "jquery";
 
-import {ScreenFlasher} from "./src/utils.ts";
+import {ScreenFlasher} from "./src/utils";
 
 class Main {
     static startup() {
