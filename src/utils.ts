@@ -12,11 +12,11 @@ export class ScreenFlasher {
             left: "0", top: "0",
             bottom: "0", right: "0",
             opacity: 0,
-            backgroundColor: "red"
+            backgroundColor: "green"
         });
         $(body).append(div);
 
-        const DELAY = 100;
+        const DELAY = 200;
 
         $(div)
             .animate({ opacity: 1 }, DELAY)

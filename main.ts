@@ -15,6 +15,8 @@ import * as $ from "jquery";
 
 import {ScreenFlasher} from "./src/utils";
 
+import './sass/styles.scss';
+
 class Main {
     static startup() {
         console.log("starting application...");
