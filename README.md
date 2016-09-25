@@ -2,6 +2,7 @@ This is supposed to be a starting point where you can start writing code without
 
 ### How do I use this?
 
+ - Checkout this repo and delete the `.git/` directory. `rm -rf .git/`
  - Run `npm install`.
  - Open this directory in Visual Studio Code.
  - Run the Build Task (`Cmd + Shift + P -> Tasks: Run Build Task` or just `Cmd + Shift + B`) which will start Webpack Dev Server.
