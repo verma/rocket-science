@@ -6,6 +6,7 @@ This is supposed to be a starting point where you can start writing code without
  - Open this directory in Visual Studio Code.
  - Run the Build Task (`Cmd + Shift + P -> Tasks: Run Build Task` or just `Cmd + Shift + B`) which will start Webpack Dev Server.
  - Browse to http://localhost:8080/
+ - Start by looking at/editing `main.ts`.
 
 ### How do I add more dependencies?
 `npm install <whatever>`, same rules as webpack projects apply.
