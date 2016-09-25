@@ -7,7 +7,7 @@ Here's a quick copy-paste (warning: will update your typescript to latest versio
     bash -c \
         'git clone git@github.com:verma/rocket-science.git such-project && cd such-project && \
          rm -rf .git/ && npm install -g typescript && npm install && \
-         echo "\n\nOpen this directory in Visual Studio Code ..."'
+         printf "\n\n:: all set, open this directory in Visual Studio Code now ..."'
 
  - Checkout this repo and delete the `.git/` directory. `rm -rf .git/`
  - Run `npm install`.
