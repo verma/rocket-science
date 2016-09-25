@@ -20,6 +20,9 @@ import './sass/styles.scss';
 class Main {
     static startup() {
         console.log("starting application...");
+
+        // TODO: Add your application specific code here
+
         let button = $('<button>').text("Click Me").click(() => {
             ScreenFlasher.flashScreen();
         });
@@ -28,6 +31,4 @@ class Main {
     }
 }
 
-$(function() {
-    Main.startup();
-});
+$(Main.startup);
