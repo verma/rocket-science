@@ -4,9 +4,10 @@ This is supposed to be a starting point where you can start writing code without
 
 Here's a quick copy-paste (warning: will update your typescript to latest version):
 
-    git clone git@github.com:verma/rocket-science.git such-project && cd such-project && \
-        rm -rf .git/ && npm install -g typescript && npm install && \
-        echo "\n\nOpen this directory in Visual Studio Code ..."
+    bash -c \
+        'git clone git@github.com:verma/rocket-science.git such-project && cd such-project && \
+         rm -rf .git/ && npm install -g typescript && npm install && \
+         echo "\n\nOpen this directory in Visual Studio Code ..."'
 
  - Checkout this repo and delete the `.git/` directory. `rm -rf .git/`
  - Run `npm install`.
