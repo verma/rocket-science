@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "es5",
+        "watch": true,
+        "outDir": "./js"
+    },
+    "files": [
+        "main.ts",
+        "src/utils.ts",
+        "typings/index.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

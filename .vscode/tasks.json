@@ -1,0 +1,8 @@
+{
+    "version": "0.1.0",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "echoCommand": true,
+    "command": "${workspaceRoot}/node_modules/.bin/webpack-dev-server",
+    "args": []
+}
