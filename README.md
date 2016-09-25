@@ -5,7 +5,7 @@ This is supposed to be a starting point where you can start writing code without
 Here's a quick copy-paste (warning: will update your typescript to latest version):
 
     bash -c \
-        'git clone git@github.com:verma/rocket-science.git such-project && \
+        'git clone --depth 1 git@github.com:verma/rocket-science.git such-project && \
          cd such-project && \
          rm -rf .git/ && \
          npm install -g typescript && \
